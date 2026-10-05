@@ -1,0 +1,590 @@
+[
+  {
+    "query": "有給休暇は入社何ヶ月後に何日付与されますか？",
+    "retrieved": [
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第2章 休⽇・休暇",
+        0.951
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "1. ⼊社時に付与されるアカウント",
+        0.25
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "5. 退社時の⼿続き",
+        0.15
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "1. 精算の基本フロー",
+        0.031
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "3. 情報の機密区分",
+        0.028
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "2. デバイス・PC の取り扱い",
+        0.026
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "(文書冒頭)",
+        0.006
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "(文書冒頭)",
+        0.002
+      ]
+    ],
+    "answer": "有給休暇は入社6ヶ月経過後に10日が付与されます。以降は勤続年数に応じて加算され、上限は年40日となっています。\n\n出典: case3-doc1-employment-rules.pdf / 第2章 休日・休暇",
+    "expected": "入社6ヶ月経過後に10日付与される",
+    "expected_source": "case3-doc1-employment-rules",
+    "type": "該当あり"
+  },
+  {
+    "query": "経費精算の締め日と振込日はいつですか？",
+    "retrieved": [
+      [
+        "case3-doc2-expense-manual.pdf",
+        "1. 精算の基本フロー",
+        0.741
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "(文書冒頭)",
+        0.439
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "4. ⼿当",
+        0.256
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "3. 主なツールと利⽤範囲",
+        0.214
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "(文書冒頭)",
+        0.101
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "2. 交通費",
+        0.09
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "(文書冒頭)",
+        0.054
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "(文書冒頭)",
+        0.035
+      ]
+    ],
+    "answer": "経費精算の締め日は毎月末日で、翌月10日までに申請を完了する必要があります。承認された経費は、翌月25日に給与口座へ振り込まれます。\n\n出典: case3-doc2-expense-manual.pdf / 1. 精算の基本フロー",
+    "expected": "毎月末締め・翌月10日までに申請・翌月25日に振込",
+    "expected_source": "case3-doc2-expense-manual",
+    "type": "該当あり"
+  },
+  {
+    "query": "リモートワークは週何日まで可能ですか？",
+    "retrieved": [
+      [
+        "case3-doc4-remote-work.pdf",
+        "3. 申請⽅法",
+        0.637
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "2. 実施頻度・時間",
+        0.565
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "5. 在宅勤務⼿当",
+        0.504
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "4. ⼿当",
+        0.395
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "1. 対象者",
+        0.303
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "(文書冒頭)",
+        0.276
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "5. セキュリティ要件",
+        0.248
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "6. PC・ネットワークのトラブル",
+        0.179
+      ]
+    ],
+    "answer": "リモートワークは週3日まで可能です。また、コアタイムは11:00〜15:00と定められており、この時間帯は連絡が取れる状態にする必要があります。\n\n出典: case3-doc4-remote-work.pdf / 2. 実施頻度・時間",
+    "expected": "週3日まで",
+    "expected_source": "case3-doc4-remote-work",
+    "type": "該当あり"
+  },
+  {
+    "query": "パスワードの最低文字数と変更頻度を教えてください。",
+    "retrieved": [
+      [
+        "case3-doc3-security-policy.pdf",
+        "1. パスワード管理",
+        0.972
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "1. ⼊社時に付与されるアカウント",
+        0.202
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "2. 交通費",
+        0.169
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "3. 情報の機密区分",
+        0.122
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "2. 実施頻度・時間",
+        0.086
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "1. 精算の基本フロー",
+        0.077
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "5. セキュリティ要件",
+        0.076
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第1章 勤務時間・休憩",
+        0.064
+      ]
+    ],
+    "answer": "パスワードは12文字以上とし、90日ごとに変更する必要があります。また、過去3回分と同一のものは使用できません。\n\n出典: case3-doc3-security-policy.pdf / 1. パスワード管理",
+    "expected": "12文字以上・90日ごとに変更・過去3回分と同一は不可",
+    "expected_source": "case3-doc3-security-policy",
+    "type": "該当あり"
+  },
+  {
+    "query": "在宅勤務手当はいくら支給されますか？",
+    "retrieved": [
+      [
+        "case3-doc2-expense-manual.pdf",
+        "5. 在宅勤務⼿当",
+        0.968
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "4. ⼿当",
+        0.413
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "(文書冒頭)",
+        0.05
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "5. 退社時の⼿続き",
+        0.049
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第1章 勤務時間・休憩",
+        0.044
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "1. 精算の基本フロー",
+        0.039
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第3章 時間外労働（残業）",
+        0.036
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "3. 情報の機密区分",
+        0.034
+      ]
+    ],
+    "answer": "在宅勤務手当は月額3,000円が支給されます。ただし、月の在宅勤務日数が4日以上の月が対象となります。\n\n出典: case3-doc2-expense-manual.pdf / 5. 在宅勤務⼿当",
+    "expected": "月額3",
+    "expected_source": "000円",
+    "type": "5. 在宅勤務手当 / 4. 手当"
+  },
+  {
+    "query": "接待交際費の1人あたりの上限はいくらですか？",
+    "retrieved": [
+      [
+        "case3-doc2-expense-manual.pdf",
+        "3. 接待交際費",
+        0.983
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第3章 時間外労働（残業）",
+        0.173
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "3. 申請⽅法",
+        0.053
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "5. 在宅勤務⼿当",
+        0.045
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "(文書冒頭)",
+        0.032
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "(文書冒頭)",
+        0.032
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "(文書冒頭)",
+        0.032
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "(文書冒頭)",
+        0.031
+      ]
+    ],
+    "answer": "接待交際費の1人あたりの上限は5,000円です。これを超える場合は事前に部門長の承認を得る必要があります。\n\n出典: case3-doc2-expense-manual.pdf / 3. 接待交際費",
+    "expected": "1人あたり5",
+    "expected_source": "000円（超える場合は部門長の事前承認）",
+    "type": "3. 接待交際費"
+  },
+  {
+    "query": "PCを紛失した場合、どこに何分以内に報告しますか？",
+    "retrieved": [
+      [
+        "case3-doc3-security-policy.pdf",
+        "4. インシデント対応",
+        0.845
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "3. 情報システム部が2営業⽇以内にアカウントを発⾏する。",
+        0.419
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "5. セキュリティ要件",
+        0.36
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "6. PC・ネットワークのトラブル",
+        0.209
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "2. デバイス・PC の取り扱い",
+        0.167
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "5. 退社時の⼿続き",
+        0.132
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "1. 利⽤したいツールを #it-helpdesk に申請する。",
+        0.095
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第5章 退職",
+        0.07
+      ]
+    ],
+    "answer": "PCを紛失した場合は、情報システム部（security@techbridge.co.jp）へ、事象を認知してから30分以内に報告する必要があります。報告後、情報システム部がアカウント停止・端末ロックなどの初動対応を行います。\n\n出典: case3-doc3-security-policy.pdf / 4. インシデント対応",
+    "expected": "情報システム部（security@techbridge.co.jp）へ30分以内",
+    "expected_source": "case3-doc3-security-policy",
+    "type": "該当あり"
+  },
+  {
+    "query": "リモートワークのコアタイムは何時から何時ですか？",
+    "retrieved": [
+      [
+        "case3-doc4-remote-work.pdf",
+        "2. 実施頻度・時間",
+        0.716
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "3. 申請⽅法",
+        0.495
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "5. 在宅勤務⼿当",
+        0.419
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "1. 対象者",
+        0.347
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "4. ⼿当",
+        0.33
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "(文書冒頭)",
+        0.238
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "6. PC・ネットワークのトラブル",
+        0.215
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "5. セキュリティ要件",
+        0.207
+      ]
+    ],
+    "answer": "リモートワークのコアタイムは11:00〜15:00です。この時間帯は連絡が取れる状態にする必要があります。\n\n出典: case3-doc4-remote-work.pdf / 2. 実施頻度・時間",
+    "expected": "11:00〜15:00",
+    "expected_source": "case3-doc4-remote-work",
+    "type": "該当あり"
+  },
+  {
+    "query": "新しいツールのアカウントは申請からどのくらいで発行されますか？",
+    "retrieved": [
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "4. アカウント申請の流れ",
+        0.527
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "1. 利⽤したいツールを #it-helpdesk に申請する。",
+        0.478
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "1. ⼊社時に付与されるアカウント",
+        0.414
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "5. 退職時の対応",
+        0.361
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "2. 申請窓⼝",
+        0.342
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "3. 情報システム部が2営業⽇以内にアカウントを発⾏する。",
+        0.335
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "(文書冒頭)",
+        0.318
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "5. 退社時の⼿続き",
+        0.309
+      ]
+    ],
+    "answer": "新しいツールのアカウントは、申請から2営業日以内に情報システム部が発行します。申請は、Slackの#it-helpdeskチャンネルで受け付けています。\n\n出典: case3-doc5-it-onboarding.pdf / セクション「3. 情報システム部が2営業⽇以内にアカウントを発⾏する。」、「2. 申請窓⼝」",
+    "expected": "上長承認後、情報システム部が2営業日以内に発行",
+    "expected_source": "case3-doc5-it-onboarding",
+    "type": "該当あり"
+  },
+  {
+    "query": "時間外労働の上限は月何時間・年何時間ですか？",
+    "retrieved": [
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第3章 時間外労働（残業）",
+        0.967
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第1章 勤務時間・休憩",
+        0.316
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "2. 実施頻度・時間",
+        0.127
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "(文書冒頭)",
+        0.024
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "(文書冒頭)",
+        0.021
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "(文書冒頭)",
+        0.02
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "3. 接待交際費",
+        0.019
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "(文書冒頭)",
+        0.017
+      ]
+    ],
+    "answer": "時間外労働の上限は、36協定に基づき月45時間・年360時間と定められています。時間外労働は事前申請制で、上長の承認を得たうえで行う必要があります。\n\n出典: case3-doc1-employment-rules.pdf / 第3章 時間外労働(残業)",
+    "expected": "36協定に基づき月45時間・年360時間",
+    "expected_source": "case3-doc1-employment-rules",
+    "type": "該当あり"
+  },
+  {
+    "query": "育児休業の取得条件を教えてください。",
+    "retrieved": [
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第2章 休⽇・休暇",
+        0.594
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "3. 情報の機密区分",
+        0.531
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第1章 勤務時間・休憩",
+        0.332
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "5. セキュリティ要件",
+        0.327
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第4章 服務規律",
+        0.32
+      ],
+      [
+        "case3-doc2-expense-manual.pdf",
+        "2. 交通費",
+        0.293
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "1. パスワード管理",
+        0.289
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "(文書冒頭)",
+        0.201
+      ]
+    ],
+    "answer": "該当する情報が見つかりません。\n\n提供された参考文書には、育児休業に関する記載がありませんでした。参考文書には休日・休暇(土日祝、年末年始、夏季休暇、年次有給休暇)についての情報はありますが、育児休業の取得条件については含まれていません。",
+    "expected": "文書に記載がないため「該当する情報が見つかりません」と回答すべき",
+    "expected_source": "（記載なし）",
+    "type": "該当なし（ハルシネーション検証）"
+  },
+  {
+    "query": "退職金はいくらもらえますか？",
+    "retrieved": [
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第5章 退職",
+        0.773
+      ],
+      [
+        "case3-doc3-security-policy.pdf",
+        "5. 退職時の対応",
+        0.75
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "5. 退社時の⼿続き",
+        0.085
+      ],
+      [
+        "case3-doc1-employment-rules.pdf",
+        "第4章 服務規律",
+        0.07
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "(文書冒頭)",
+        0.012
+      ],
+      [
+        "case3-doc5-it-onboarding.pdf",
+        "(文書冒頭)",
+        0.003
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "5. セキュリティ要件",
+        0.001
+      ],
+      [
+        "case3-doc4-remote-work.pdf",
+        "4. ⼿当",
+        0.0
+      ]
+    ],
+    "answer": "該当する情報が見つかりません。\n\n提供された参考文書には、退職時の手続き（退職届の提出時期、貸与物の返却、アカウントの無効化など）に関する記載はありますが、退職金の金額や支給条件についての記載はありませんでした。\n\n出典: 参考文書全体を確認しましたが、退職金に関する記述は含まれていません。",
+    "expected": "文書に記載がないため「該当する情報が見つかりません」と回答すべき",
+    "expected_source": "（記載なし）",
+    "type": "該当なし（ハルシネーション検証）"
+  }
+]
